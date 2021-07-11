@@ -21,6 +21,12 @@ a:visited {color: #808080;}
 a:hover   {color: #c9c9c9}
 a:active  {color: #c9c9c9;}
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #wrapper {
     width: 800px;
     min-height: 100%;
