@@ -15,4 +15,14 @@
         <changefreq>yearly</changefreq>
         <priority>1.0</priority>
     </url>
+    <url>
+        <loc>/articles/css-tips/css-tips.html</loc>
+        <changefreq>yearly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>/articles/glory-to-rome/glory-to-rome.html</loc>
+        <changefreq>yearly</changefreq>
+        <priority>1.0</priority>
+    </url>
 </urlset>
