@@ -14,7 +14,6 @@ body {
 
 a {
     text-decoration: none;
-    display: block;
 }
 a:link    {color: #808080;}
 a:visited {color: #808080;}
