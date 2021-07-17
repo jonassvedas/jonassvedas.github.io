@@ -130,3 +130,10 @@ a:link    {color: #4b4b4b; text-decoration: none;}
 a:visited {color: #4b4b4b; text-decoration: line-through;}
 a:hover   {color: #c9c9c9;}
 a:active  {color: #c9c9c9;}
+
+
+  @media screen and (max-width: 600px) {
+    .nav {
+      font-size: 3vw;
+    }
+  }
