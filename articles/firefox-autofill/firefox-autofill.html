@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+
+  
+  <title>Jonas Svedas</title>
+  
+
+  
+  <link rel="shortcut icon" href="/static/images/favicon.ico">
+  <link rel="stylesheet"    href="/static/css/style.css">
+  
+
+  
+  
+
+</head>
+
+<body>
+  <!-- Header contains logo and navigation elements -->
+  <div class = "flex-col top-container">
+
+    
+    <div class = "flex-row top-nav">
+      <div class = "nav no-a-decor">
+        <ul>
+          <li><a>EN</a></li>
+        </ul>
+      </div>
+    </div>
+    
+
+    <div class = "flex-row top-border bottom-border">
+
+      
+      <div id = "logo">
+        <h1>JONAS SVEDAS</h1>
+      </div>
+      
+
+      
+      <div class = "nav no-a-decor">
+        <ul>
+          <li><a href="/index.html">ARTICLES</a></li>
+          <li><a href="/about.html">ABOUT</a></li>
+        </ul>
+      </div>
+      
+    </div>
+
+    <div class = "page-content">
+    
+<h1>How to enable Firefox form autofill outside the US</h1>
+<p>For some reason that I do not understand Firefox does not autocomplete forms if you don't live in a particular geografic location. To me that is a huge limitation to the browser and this article is about how to fix this.</p>
+<p>Form autofill for details like address, name or phone is a feature that is very common with other browsers however apperently if you dont live in the US or Cananda Firefox will have that disabled by default. Firefox mentions it in their <a href="https://support.mozilla.org/en-US/kb/">documentation</a>. In fact if you are outside the US and search for autofill in the settings page of Firefox you will not even find the option.</p>
+<p><img src="autofill-search.png" width="700"/></p>
+<h2>Here are the steps to get autofill enabled:</h2>
+<ul>
+<li>Enter <code>about:config</code> in the address bar to see advance preferences.</li>
+<li>Seach for <code>formautofill</code></li>
+</ul>
+<p><img src="formautofill.png" width="700"/></p>
+<ul>
+<li>Set <code>extensions.formautofill.available</code> to <code>"on"</code></li>
+<li>Add your country code to the supported countries section. (You can find it if you search for <code>region</code> in the Advanced Preferences page.)</li>
+<li>Quit and restart Firefox</li>
+<li>The Forms and Autofill settings should appear now in the main settings page</li>
+</ul>
+<p><img src="autofill-available.png" width="700"/></p>
+<ul>
+<li>Check the boxes you want and hopefully autofill should work.</li>
+</ul>
+<p>You can finally test it online. <a href="https://www.roboform.com/filling-test-all-fields">This</a> is a website that worked form me.</p>
+<h2>References:</h2>
+<p><br>
+<a href="https://support.mozilla.org/en-US/questions/1243192#answer-1207652">https://support.mozilla.org/en-US/questions/1243192#answer-1207652</a>
+<br>
+<a href="https://support.mozilla.org/en-US/questions/1261333">https://support.mozilla.org/en-US/questions/1261333</a></p>
+
+    </div>
+
+    <div class = "footer top-border">
+      
+        Jonas Švedas | 2021
+      
+    </div>
+  </div>
+
+</body>
+</html>
